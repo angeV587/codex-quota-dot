@@ -6,6 +6,10 @@ A small, unofficial Codex quota monitor for the macOS menu bar.
 
 本项目是非官方工具，与 OpenAI 无隶属或背书关系。
 
+![Codex Quota Dot 在 MacBook 菜单栏中的场景效果](docs/macbook-menu-bar.png)
+
+MacBook 场景渲染图：参考实际菜单栏样式制作，局部放大展示；额度和倒计时仅作示例。
+
 ![菜单栏样式示例](docs/preview.png)
 
 示例使用模拟数值，仅展示界面样式，不代表实时账户额度。
