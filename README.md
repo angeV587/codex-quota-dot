@@ -1,18 +1,32 @@
-# Codex Quota Dot
+# Codex Quota Dot · 原生极简，安静好用
 
-A small, unofficial Codex quota monitor for the macOS menu bar.
+**Native, minimal, quiet — Codex quota in your Mac menu bar.**
 
-用 Swift + AppKit 在菜单栏显示 **圆环标记、剩余额度百分比和可选的重置倒计时**。没有 Dock 图标、常驻主窗口、通知或提示音，无额外 Swift 包依赖。
+Codex 剩余额度，抬眼就知道。一个圆环、剩余额度，以及可选的重置倒计时。把必要的信息留在菜单栏，让查看额度成为一件简单、安静的小事。
+
+Your remaining Codex quota, at a glance. A dot, a percentage, and an optional reset countdown. Just the essentials, quietly at home in your Mac menu bar.
 
 本项目是非官方工具，与 OpenAI 无隶属或背书关系。
+
+An unofficial tool, not affiliated with or endorsed by OpenAI.
 
 ![Codex Quota Dot 在 MacBook 菜单栏中的场景效果](docs/macbook-menu-bar.png)
 
 MacBook 场景渲染图：参考实际菜单栏样式制作，局部放大展示；额度和倒计时仅作示例。
 
+MacBook scene render based on the implemented menu-bar design, with an enlarged detail. Quota and countdown values are illustrative.
+
+## 少而精，刚刚好 / Less, done well
+
+- **原生质感 / Native by design.** 使用 Swift + AppKit 构建，采用 macOS 原生菜单栏和菜单交互，自然融入你的 Mac。 Built with Swift and AppKit, using native macOS menu-bar and menu interactions to feel right at home.
+- **简洁耐看 / Refined simplicity.** 围绕查看额度，只保留必要功能。圆环、百分比和可选倒计时，清楚、克制、刚刚好。 A clear, considered display with only the essentials: a dot, your remaining percentage, and a countdown you can show or hide.
+- **安静好用 / Quietly useful.** 后台自动刷新，没有 Dock 图标、常驻主窗口、通知或提示音。需要时看一眼，其余时间安心专注。 Refreshes in the background, with no Dock icon, main window, notifications, or sounds. There when you need it, quiet while you work.
+
 ![菜单栏样式示例](docs/preview.png)
 
 示例使用模拟数值，仅展示界面样式，不代表实时账户额度。
+
+These examples use simulated values to demonstrate the interface, not live account data.
 
 ## Features / 功能
 
@@ -39,6 +53,8 @@ MacBook 场景渲染图：参考实际菜单栏样式制作，局部放大展示
 - macOS 13 或更高版本。
 - Swift 5.9 或更高版本，可通过 Apple Command Line Tools 或 Xcode 提供。
 - 本机已安装官方 Codex CLI，并已通过官方客户端使用 ChatGPT 账户登录。
+
+无额外 Swift 包依赖。No third-party Swift packages.
 
 目前只在 **Apple Silicon / macOS 26** 上测试过。最低系统版本是构建目标，不代表已经覆盖所有系统与处理器；Intel 兼容性尚未验证。默认构建当前机器架构。
 
